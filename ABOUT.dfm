@@ -1,0 +1,139 @@
+object AboutBox: TAboutBox
+  Left = 243
+  Top = 108
+  ActiveControl = OKButton
+  BorderStyle = bsDialog
+  Caption = #1054' '#1087#1088#1086#1075#1088#1072#1084#1084#1077
+  ClientHeight = 218
+  ClientWidth = 269
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 8
+    Top = 8
+    Width = 249
+    Height = 161
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    BevelOuter = bvLowered
+    TabOrder = 0
+    object ProgramIcon: TImage
+      Left = 8
+      Top = 8
+      Width = 33
+      Height = 39
+      Margins.Left = 2
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 2
+      Picture.Data = {
+        055449636F6E0000010001002020100000000000E80200001600000028000000
+        2000000040000000010004000000000080020000000000000000000000000000
+        0000000000000000000080000080000000808000800000008000800080800000
+        80808000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000
+        FFFFFF0000000000000000000000000000000000000000000000000000000000
+        0000000000000000000008888800000000000000000000000008844444880000
+        0000000000000000008447777744800000000000000000000844444444444800
+        0000000000000000844444444444448000000000000000008444444444444480
+        000000000000000844444E444444444800000000000000084444E44444444448
+        0000000000000008444E6E44444444480000000000000008444CECECCCCC4448
+        00000000000000084CCE6ECCCCCCCC4800000000000000008CCCE6ECCCCCCC80
+        000000000000000088FCCECCCCCCF8800000000000000000088F8F8F8F8F8800
+        00000000000000000088FFF8F8F88000000000000000000000088FFF8F880000
+        0000000000000000000088FFF8800000000000000000000000007F8F8F700000
+        0000000000000000000008FFF800000000000000000000000000088F88000000
+        0000000000000000000008FFF800000000000000000000000000088F88000000
+        0000000000000000000008FFF800000000000000000000000000088F88000000
+        0000000000000000000008F87700000000000000000000000007888888870000
+        0000000000000000000887777788000000000000000000000007788888770000
+        0000000000000000000000000000000000000000000000000000000000000000
+        00000000FFFFFFFFFFF83FFFFFE00FFFFFC007FFFF8003FFFF0001FFFE0000FF
+        FE0000FFFC00007FFC00007FFC00007FFC00007FFC00007FFE0000FFFE0000FF
+        FF0001FFFF8003FFFFC007FFFFE00FFFFFE00FFFFFF01FFFFFF01FFFFFF01FFF
+        FFF01FFFFFF01FFFFFF01FFFFFE00FFFFFC007FFFFC007FFFFC007FFFFE00FFF
+        FFFFFFFF}
+      IsControl = True
+    end
+    object ProductName: TLabel
+      Left = 56
+      Top = 8
+      Width = 176
+      Height = 13
+      Margins.Left = 2
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 2
+      Caption = #1055#1088#1086#1075#1088#1072#1084#1084#1085#1099#1081' '#1082#1086#1084#1087#1083#1077#1082#1089' Enterprise'
+      IsControl = True
+    end
+    object Version: TLabel
+      Left = 56
+      Top = 56
+      Width = 55
+      Height = 13
+      Margins.Left = 2
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 2
+      Caption = #1042#1077#1088#1089#1080#1103' 1.0'
+      IsControl = True
+    end
+    object Copyright: TLabel
+      Left = 8
+      Top = 80
+      Width = 98
+      Height = 13
+      Margins.Left = 2
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 2
+      Caption = 'Copyright '#1058#1042#1042', 2010'
+      IsControl = True
+    end
+    object Comments: TLabel
+      Left = 8
+      Top = 104
+      Width = 234
+      Height = 26
+      Margins.Left = 2
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 2
+      Caption = #1042#1079#1074#1077#1096#1080#1074#1072#1085#1080#1077' '#1075#1086#1090#1086#1074#1086#1075#1086' '#1092#1072#1088#1096#1072', '#1089' '#1091#1095#1077#1090#1086#1084' '#1074#1077#1089#1072' '#1090#1072#1088#1099' '
+      WordWrap = True
+      IsControl = True
+    end
+    object Label1: TLabel
+      Left = 56
+      Top = 26
+      Width = 83
+      Height = 13
+      Caption = #1055#1088#1080#1077#1084#1082#1072' '#1092#1072#1088#1096#1072
+    end
+  end
+  object OKButton: TButton
+    Left = 82
+    Top = 178
+    Width = 65
+    Height = 33
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = #1043#1086#1090#1086#1074#1086
+    Default = True
+    ModalResult = 1
+    TabOrder = 1
+    IsControl = True
+  end
+end
